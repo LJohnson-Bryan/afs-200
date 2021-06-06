@@ -2,7 +2,7 @@ number = input("Enter your number: ")
 if int(number) % 4 == 0:
     # Extra 1: if number is multiple of 4, print a different message 
     print("Your number is a multiple of 4!")
-elif int(number) % 2 == 0: 
+if int(number) % 2 == 0: 
     print("Your number is even!")
 else:
     print("Your number is odd!")
